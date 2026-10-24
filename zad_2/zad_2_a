@@ -1,0 +1,6 @@
+def print_imie(imiona):
+    for imie in imiona:
+        print(imie)
+
+imiona = ['Mateusz', 'Mariusz', 'Michał', 'Grzegorz', 'Tomasz']
+print_imie(imiona)

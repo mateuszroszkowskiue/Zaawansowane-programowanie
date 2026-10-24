@@ -1,0 +1,10 @@
+def podwojenie_liczb(liczby):
+    zwrocone_liczby = []
+
+    for liczba in liczby:
+        zwrocone_liczby.append(liczba*2)
+    return zwrocone_liczby
+
+liczby = [5, 2, 8, 4, 3]
+
+print(podwojenie_liczb(liczby))

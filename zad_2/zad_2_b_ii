@@ -1,0 +1,5 @@
+def podwojenie_liczb(liczby):
+    return [liczba*2 for liczba in liczby]
+
+liczby = [5, 2, 8, 4, 3]
+print(podwojenie_liczb(liczby))
