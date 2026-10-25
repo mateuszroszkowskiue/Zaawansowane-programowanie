@@ -1,4 +1,7 @@
-# def print_co_druga(liczby):
+def wyswietl_co_drugi(liczby):
+    for liczba in liczby[::2]:
+        print(liczba)
 
+lista_liczb = list(range(1, 11))
 
-# lista_liczb = list(range(1, 11))
+wyswietl_co_drugi(lista_liczb)
